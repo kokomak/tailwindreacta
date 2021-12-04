@@ -13,7 +13,7 @@ function Nadpis(props) {
 
             <div class="flex flex-row justify-between max-w-lg items-center">
                 <div class="w-full flex justify-start">
-                    <a href="https://dashboard.picman.app/register" class="inline-block rounded-full bg-brand-light text-white md:px-10 px-7 md:py-3 py-3 md:text-xl text-lg bg-purple-500 hover:border-purple-900 text-white-500 font-semibold    animate-pulse">{tlacitko}</a>
+                    <a  class="inline-block rounded-full bg-brand-light text-white md:px-10 px-7 md:py-3 py-3 md:text-xl text-lg bg-purple-500 hover:border-purple-900 text-white-500 font-semibold    animate-pulse">{tlacitko}</a>
                 </div>
             </div>
 
