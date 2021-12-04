@@ -11,13 +11,13 @@ function Cards(props) {
 
             <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-x-6 lg:gap-x-32 gap-y-12">
                 <div>
-                    <div class="flex items-center justify-center w-8 h-8 mb-4 text-red-600 bg-red-100 rounded-full">
+                    <div class="flex items-center filter drop-shadow-lg  justify-center w-8 h-8 mb-4 text-red-600 bg-red-100 rounded-full">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 20 20"
                             fill="currentColor"
                             aria-hidden="true"
-                            class="w-6 h-6"
+                            class="w-15 h-15"
                         >
                             <path
                                 fill-rule="evenodd"
@@ -34,13 +34,13 @@ function Cards(props) {
                     </p>
                 </div>
                 <div>
-                    <div class="flex items-center justify-center w-8 h-8 mb-4 text-pink-600 bg-pink-100 rounded-full">
+                    <div class="flex items-center filter drop-shadow-lg  justify-center w-8 h-8 mb-4 text-pink-600 bg-pink-100 rounded-full">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             fill="none"
                             viewBox="0 0 24 24"
                             stroke="currentColor"
-                            class="h-6 w-6"
+                            class="w-15 h-15"
                         >
                             <path
                                 stroke-linecap="round"
@@ -59,13 +59,13 @@ function Cards(props) {
                     </p>
                 </div>
                 <div>
-                    <div class="flex items-center justify-center w-8 h-8 mb-4 text-yellow-600 bg-yellow-100 rounded-full">
+                    <div class="flex items-center filter drop-shadow-lg  justify-center w-8 h-8 mb-4 text-yellow-600 bg-yellow-100 rounded-full">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             fill="none"
                             viewBox="0 0 24 24"
                             stroke="currentColor"
-                            class="h-6 w-6"
+                            class="w-15 h-15"
                         >
                             <path
                                 stroke-linecap="round"
@@ -85,13 +85,13 @@ function Cards(props) {
                 </div>
 
                 <div>
-                    <div class="flex items-center justify-center w-8 h-8 mb-4 text-yellow-600 bg-yellow-100 rounded-full">
+                    <div class="filter drop-shadow-lg  flex items-center justify-center w-8 h-8 mb-4 text-yellow-600 bg-yellow-100 rounded-full">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             fill="none"
                             viewBox="0 0 24 24"
                             stroke="currentColor"
-                            class="h-6 w-6"
+                            class="w-15 h-15"
                         >
                             <path
                                 stroke-linecap="round"

@@ -1,8 +1,6 @@
-import logo from './logo.svg';
 import './App.css';
 import Header from './Header';
 import Nadpis from './Nadpis'
-import Obrazek from './Obrazek';
 import DruhyNadpis from './DruhyNadpis';
 import Cards from './Cards';
 
@@ -26,7 +24,6 @@ function App() {
 
       <DruhyNadpis />
 
-       {/*  <Obrazek /> */}
 
        <Cards 
        
