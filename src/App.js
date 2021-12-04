@@ -3,7 +3,8 @@ import Header from './Header';
 import Nadpis from './Nadpis'
 import DruhyNadpis from './DruhyNadpis';
 import Cards from './Cards';
-
+import ObrazekKarty from './ObrazekKarty';
+import Cardsdvadva from './Cardsdvadva';
 
 function App() {
   return (
@@ -22,23 +23,58 @@ function App() {
         tlacitko="Explore"
       />
 
-      <DruhyNadpis />
+      <DruhyNadpis
+
+        barevny="WHATS THE FUNCTION"
+        druhyNadpis="Meet the feature of product"
+      />
+
+      <Cards
+
+        nazev1="Fast performance"
+        nazev2="Partnership deal"
+        nazev3="Pro Subscription"
+        nazev4="Customer Support"
+
+        vypln1="Lorem ipsum dolor sit amet consecte adipiscing elit."
+        vypln2="Lorem ipsum dolor sit amet consecte adipiscing elit."
+        vypln3="Lorem ipsum dolor sit amet consecte adipiscing elit."
+        vypln4="Lorem ipsum dolor sit amet consecte adipiscing elit."
 
 
-       <Cards 
-       
-       nazev1="Fast performance"
-       nazev2="Partnership deal"
-       nazev3="Pro Subscription"
-       nazev4="Customer Support"
-       
-       vypln1="Lorem ipsum dolor sit amet consecte adipiscing elit."
-       vypln2="Lorem ipsum dolor sit amet consecte adipiscing elit."
-       vypln3="Lorem ipsum dolor sit amet consecte adipiscing elit."
-       vypln4="Lorem ipsum dolor sit amet consecte adipiscing elit."
+      />
 
-       
-       />
+      <ObrazekKarty
+
+        nazev1="Fast performance"
+        nazev2="Partnership deal"
+        vypln1="Lorem ipsum dolor sit amet consecte adipiscing elit."
+        vypln2="Lorem ipsum dolor sit amet consecte adipiscing elit."
+
+
+      />
+
+      <DruhyNadpis
+
+        barevny="QUALITY FEATURES"
+        druhyNadpis="Amazing useful features"
+      />
+
+      <Cardsdvadva
+      
+      nazev1="Fast performance"
+        nazev2="Partnership deal"
+        nazev3="Pro Subscription"
+        nazev4="Customer Support"
+
+        vypln1="Lorem ipsum dolor sit amet consecte adipiscing elit."
+        vypln2="Lorem ipsum dolor sit amet consecte adipiscing elit."
+        vypln3="Lorem ipsum dolor sit amet consecte adipiscing elit."
+        vypln4="Lorem ipsum dolor sit amet consecte adipiscing elit."
+      
+      />
+
+
 
     </div>
   );
