@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Title(props) {
+function Header(props) {
     const { menuItem1, menuItem2, menuItem3, menuItem4, buttonText } = props
     return (
         <div class="pt-5 items-center space-x-5">
@@ -31,4 +31,4 @@ function Title(props) {
     )
 }
 
-export default Title
+export default Header
