@@ -16,12 +16,17 @@ function App() {
       />
 
 
-      <Nadpis
+      {/* <Nadpis
 
         textHlavni="Top Quality Digital Products To Explore"
+      />  
+      */}
+      <PodNadpis
+
+        uvod="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam feugiat, turpis at pulvinar vulputate, erat libero tristique tellus, nec bibendum odio risus sit amet ante."
+
       />
 
-      <PodNadpis />
     </div>
   );
 }
